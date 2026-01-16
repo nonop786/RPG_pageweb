@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import sqlite3 as sql
 
 def creer_bd():
@@ -80,3 +83,4 @@ CREATE Table monstres(nom VARCHAR,
                       identifiant_stat INT REFERENCES statistique(identifiant));
 
 """
+
