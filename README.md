@@ -16,3 +16,5 @@ mecaniques :
 	shop / monnaie
 	systeme de loot
 BD des joueurs
+
+Accessible depuis https://nonop786.github.io/RPG_pageweb/index_rpg.html
