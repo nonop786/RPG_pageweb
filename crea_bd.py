@@ -27,7 +27,13 @@ def creer_table():
     print("c'est finit !")
     return None 
 
-creer_table()
+#creer_table()
+
+def initialisation():
+    """
+    But : remplire les tables avec les données minimum du jeu (stats / monstres / objets /comptes dev -> auto set des perso)
+    """
+    return print("remplissage primaire des tables finit.")
 
 """
 CREATE Table joueurs(identifiant INT PRIMARY KEY NOT NULL,
@@ -72,4 +78,5 @@ CREATE Table objets(nom VARCHAR PRIMARY KEY,
 
 CREATE Table monstres(nom VARCHAR, 
                       identifiant_stat INT REFERENCES statistique(identifiant));
+
 """
