@@ -6,12 +6,6 @@ import sqlite3 as sql
 connexion = sql.connect("rpg.bd")
 cursor = connexion.cursor()
 
-def initialisation():
-    """
-    But : remplire les tables avec les données minimum du jeu (stats / monstres / objets /comptes dev -> auto set des perso)
-    """
-    return print("remplissage primaire des tables finit.")
-
 
 """ Réalisation à l'initialisation de la bd pour voir si chaque table est correctement mise en place"""
 
