@@ -14,3 +14,9 @@ def recup_joueur():
     cursor.execute("SELECT identifiant, pseudo FROM joueurs")
     perso = cursor.fetchall()
     return perso # liste de tuple
+
+def initialisation():
+"""
+But : remplire les tables avec les données minimum du jeu (stats / monstres / objets /comptes dev -> auto set des perso)
+"""
+    return print("remplissage primaire des tables finit.")
